@@ -1,0 +1,31 @@
+{
+  "role": "AI Product Engineer (Zero-to-One), Rooman Technologies",
+  "must_have_keywords": [
+    "python"
+  ],
+  "nice_to_have_keywords": [
+    "pytorch", "tensorflow", "hugging face", "transformers", "langchain",
+    "llm", "rag", "vector db", "pinecone", "faiss", "weaviate", "chroma", "milvus",
+    "openai", "gpt-4", "claude", "llama", "anthropic", "gemini",
+    "fastapi", "flask", "rest api", "github", "git",
+    "docker", "aws", "gcp", "ec2", "s3", "lambda",
+    "react", "streamlit", "gradio",
+    "mlflow", "weights & biases", "wandb",
+    "nlp", "genai", "cv", "video analytics",
+    "smart city", "traffic", "surveillance", "edge ai",
+    "prompt engineering", "retrieval", "embedding", "vector search"
+  ],
+  "min_years_experience": 0,
+  "location": "Bangalore (in person)",
+  "education": ["B.Tech", "B.E.", "M.Tech", "M.S.", "B.Sc CS", "M.Sc CS"],
+  "preferred_institutions": ["IIT", "NIT", "IIIT"],
+  "exclude_titles": ["QA Tester", "Data Entry", "Support Engineer"],
+  "weights": {
+    "skills": 50,
+    "experience": 10,
+    "impact": 20,
+    "education": 10,
+    "extras": 10
+  },
+  "notes": "Python is mandatory. Freshers allowed. Strong plus for LLM/RAG, Transformers, Vector DBs, Docker, AWS/GCP, and quick prototyping (Streamlit/Gradio). Preference for IIT/NIT/IIIT is a bonus, not a hard filter."
+}
