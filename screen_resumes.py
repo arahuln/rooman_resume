@@ -4,10 +4,13 @@ from pathlib import Path
 from pypdf import PdfReader
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from dotenv import load_dotenv
 
-U="https://integrate.api.nvidia.com/v1/chat/completions"
-M="meta/llama-3.1-70b-instruct"
-API_KEY="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"
+load_dotenv()
+
+U = os.getenv("NVIDIA_URL")
+M = os.getenv("NVIDIA_MODEL_NAME")
+API_KEY = os.getenv("NVIDIA_API_KEY")
 
 def rd_pdf(p):
     try:
